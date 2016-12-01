@@ -7,7 +7,7 @@ else
     echo dest exist
 fi
 
-read -p 反编译"dest"目录下所有的apk文件资源/源码?[s]:源码[r]:资源[b]:源码+资源. choice
+read -p Decompile the apk files of dest directory?[s]ource,[r]esource,[b]oth. choice
 
 source=false
 resource=false
@@ -47,5 +47,5 @@ do
 done
 
 if [ $count -eq 0 ];then
-    echo 请再次确认是否已将需要反编译的apk拷贝至dest目录下?
+    echo Make sure the apk files are in the dest directory!
 fi
