@@ -1,1 +1,2 @@
 # AndroidDecompile
+usage: ./decompile.sh
